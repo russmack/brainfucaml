@@ -2,17 +2,17 @@
 
 An OCaml implementation of a Brainfuck interpreter.
 
-![Progress](http://progressed.io/bar/10?title=started)
+![Progress](http://progressed.io/bar/100?title=done)
 [![Build Status](https://travis-ci.org/russmack/brainfucaml.svg?branch=master)](https://travis-ci.org/russmack/brainfucaml)
 
 ---
-#### Status: started.
+#### Status: done.
 ---
 
 ## Usage
 ```
 ocamlc -o brainfucaml brainfucaml.ml
-./brainfucaml
+./brainfucaml helloworld.bf
 ```
 
 ## License
