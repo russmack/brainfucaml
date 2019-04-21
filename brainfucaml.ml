@@ -180,7 +180,7 @@ let run =
     if Array.length Sys.argv == 2 then begin
         let filename = Sys.argv.(1) in
         let s = load_file filename in
-        let _ = parse s in ()
+        let _ = parse (Bytes.to_string s) in ()
     end
     else begin
         print_endline "Invalid number of arguments.";
