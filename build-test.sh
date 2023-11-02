@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ocamlfind ocamlc -o test -package ounit -linkpkg -g brainfucaml.ml test.ml
+ocamlfind ocamlc -o test -package ounit2 -linkpkg -g config.ml trace.ml brainfucaml.ml test.ml
 
